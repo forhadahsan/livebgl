@@ -1,0 +1,352 @@
+/* 
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    height: 100vh;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+}
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(122, 89, 46);
+    height: 3px;
+    width:100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover:after{
+    color:azure;
+
+} */
+
+
+body {
+    background-image: url('tho.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the background image */
+    background-color: #b88787; /* Fallback color if the image is not available */
+}
+
+      /* navbar css start*/
+          *,
+          *:before,
+          *:after{
+              padding: 0;
+              margin: 0;
+              box-sizing: border-box;
+          }
+          body{
+              background-color: #ffffff;
+          }
+          .nav{
+              /* height: 100vh; */
+              height: 70px;
+              width: 70vw;
+              min-width: 600px;
+              display: flex;
+              align-items: center;
+              /* justify-content: space-around; */
+              justify-content: center;
+              margin: auto;
+          }
+           .logo{
+            margin-left: 200px;
+           }
+          .nav a{
+              position: relative;
+              text-decoration: none;
+              font-family: 'Poppins',sans-serif;
+              color: #2f2f30;
+              font-size: 18px;
+              letter-spacing: 0.5px;
+              padding: 0 10px;
+              
+          }
+          a{
+              position: relative;
+              text-decoration: none;
+              font-family: 'Poppins',sans-serif;
+              color: #2f2f30;
+              font-size: 18px;
+              letter-spacing: 0.5px;
+              padding: 0 10px;
+              
+          }
+          a:after{
+              content: "";
+              position: absolute;
+              background-color: #2925ff;
+              height: 3px;
+              width: 0;
+              left: 0;
+              bottom: -10px;
+              transition: 0.3s;
+          }
+          a:hover{
+              color: #d4ff12;
+          }
+          a:hover:after{
+              width: 100%;
+          }
+          .nav a:hover{
+              color: #2f89ff;
+          }
+          .nav a:hover:after{
+              width: 100%;
+          }
+      /* navbar css end*/
+        
+       .top{
+            display: inline-block; 
+            margin: 7px;
+
+        }
+         .bglhover {
+            color: green;
+            
+        }
+        .bglhover:hover{
+            background-color: aqua;
+            font-size: 30px;
+            color: red;
+            cursor: pointer;
+        }
+        .bottom-footer p{
+          display: inline;
+        }
+        .icon{
+          height: 20px;
+          width: 40px;
+        }
+        .socalmedia .icon a:hover{
+              color: #72c0ff;
+          }
+        .socalmedia a:hover{
+              color: #ff0000;
+          }
+
+
+          /* marquee tag start  */
+
+          
+          /* marquee tag end  */
+
+          /* slider css start  */
+
+
+          h3 {
+            margin:5px 0; 
+            }
+
+            .sliderContainer {
+            position: relative;
+            
+            }
+
+            .slider {
+            width: 100%;
+            height: 650px;
+            /* margin: 30px 50px 50px; */
+            }
+
+            .slick-slide {
+            /* background: #2399fa; */
+
+            background-image: url("../image/groupphoto.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+                height: 650px;
+            color: white;
+            padding: 80px 0 120px;
+            font-size: 30px;
+            font-family: "Arial", "Helvetica";
+            text-align: center;
+            }
+
+            .slick-prev:before,
+            .slick-next:before {
+            color: black;
+            }
+
+            .slick-dots {
+            bottom: -30px;
+            }
+            
+            .slick-slide:nth-child(odd) {
+            /* background: #e84a69; */
+
+            background-image: url("../image/filed.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            }
+            /* .slick-slide:nth-child() {
+                background-image: url("Rectangle 3463182.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+            } */
+
+            .progressBarContainer {
+            position: absolute;
+            bottom: 20px;
+            width:700px;
+            left: 210px;
+            }
+
+            .progressBarContainer div {
+            display: block;
+            width: 30%;
+            padding: 0;
+            cursor: pointer;
+            margin-right: 5%;
+            float: left;
+            /* color: rgb(255, 255, 255); */
+            color: rgba(4, 196, 255, 0.897); 
+            }
+
+            .progressBarContainer div:last-child {
+            margin-right: 0;
+            }
+
+            .progressBarContainer div span.progressBar {
+            width: 100%;
+            height: 4px;
+            /* background-color: rgba(255, 255, 255, 0.4); */
+            background-color: rgba(238, 255, 1, 0.788);
+            display: block;
+            }
+
+            .progressBarContainer div span.progressBar .inProgress {
+            background-color: rgba(255, 255, 255, 1);
+            width: 0%;
+            height: 4px;
+            }
+
+            .slidetext1{
+                margin: auto; 
+                width: 1000px; 
+                color: #1900ff;
+                font-size: 40px;
+                 font-weight: bold;
+                 text-shadow: 2px 2px #3dff4d;
+            }
+            .slidetext2{
+                margin: auto; 
+                width: 1000px; 
+                color: #fc2dac;
+                font-size: 50px;
+                 font-weight: bold;
+                 text-shadow: 2px 2px #84fff9;
+            }
+
+          /* .slider-container {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .slider img {
+            width: 100%;
+            height: auto;
+        } */
+
+          /* slider css End  */
+
+          /* cursor start  */
+                  
+        .content p{
+          width: 700px;
+          line-height: 26px;
+          font-size: 18px;
+          text-align: justify;
+        }
+
+        .cursor{
+          position: fixed;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #c6c6c6;
+          border-radius: 50%;
+          left: 0;
+          top: 0;
+          pointer-events: none;
+          transform: translate(-50%, -50%);
+          transition: .1s;
+        }
+
+        .cursor2{
+          position: fixed;
+          width: 8px;
+          height: 8px;
+          background-color: #c6c6c6;
+          border-radius: 50%;
+          left: 0;
+          top: 0;
+          pointer-events: none;
+          transform: translate(-50%, -50%);
+          transition: .15s;
+        }
+
+        .content:hover ~ .cursor{
+          transform: translate(-50%, -50%) scale(1.5);
+          background-color: #c6c6c6;
+          opacity: .5;
+        }
+
+        .content:hover ~ .cursor2{
+          opacity: 0;
+        }
+                
+
+        .whatwedo div:hover{
+            background-color: #b88787;
+            color: #eaffff;
+        }
+        .manpowercontact p:hover { 
+            color: #d4ff12;
+            
+        }
+        .trading p:hover { 
+            color: #141212;
+        }
+        .consulting p:hover{
+            color: #5cf74e;
+        }
+
+        /* contact css start  */
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }

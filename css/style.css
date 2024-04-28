@@ -57,7 +57,7 @@ body {
       background-repeat: no-repeat;
       position: fixed;
       width: 100%;
-      height: 3px;
+      height: 5px;
       z-index: 1;
     }
 
@@ -94,7 +94,8 @@ body {
     
     .custom-navbar {
       /* background: #d5ffef !important; */
-      background: #758afdd8 !important;
+      /* background: #758afdd8 !important; */
+      background: rgba(35, 100, 174) !important;
       padding-top: 20px;
       padding-bottom: 20px; }
       .custom-navbar .navbar-brand {

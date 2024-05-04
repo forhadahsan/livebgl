@@ -54,6 +54,7 @@ body {
 
   .progress {
       background: linear-gradient(to right, #ff0404 var(--scroll), transparent 0);
+      background-color: #fffb14;
       background-repeat: no-repeat;
       position: fixed;
       width: 100%;

@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; /* Cover the entire background area */
   background-position: center; /* Center the background image */
-  background-color: #e8f1ff; /* Fallback color if the image is not available */
+  background-color: #f0f3fa; /* Fallback color if the image is not available */
 }
 
   /* Scroll bar css start  */
@@ -439,10 +439,10 @@ body {
       }
               
 
-      .whatwedo div:hover{
+      /* .whatwedo div:hover{
           background-color: #b88787;
           color: #eaffff;
-      }
+      } 
       .manpowercontact p:hover { 
           color: #0400f8;
           
@@ -454,7 +454,7 @@ body {
           color: #5cf74e;
       }
 
-
+    */
 
       
 

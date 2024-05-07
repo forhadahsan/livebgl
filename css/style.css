@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; /* Cover the entire background area */
   background-position: center; /* Center the background image */
-  background-color: #ffffff; /* Fallback color if the image is not available */
+  background-color: #ebfbff; /* Fallback color if the image is not available */
 }
 
   /* Scroll bar css start  */

@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; /* Cover the entire background area */
   background-position: center; /* Center the background image */
-  background-color: #f0f3fa; /* Fallback color if the image is not available */
+  background-color: #ffffff; /* Fallback color if the image is not available */
 }
 
   /* Scroll bar css start  */
@@ -96,7 +96,7 @@ body {
     .custom-navbar {
       /* background: #d5ffef !important; */
       /* background: #758afdd8 !important; */
-      background: rgb(35, 100, 174) !important;
+      background: rgb(252, 254, 255) !important;
       padding-top: 20px;
       padding-bottom: 20px; }
       .custom-navbar .navbar-brand {
@@ -116,7 +116,8 @@ body {
           margin-right: 15px; } }
       .custom-navbar .custom-navbar-nav li a {
         font-weight: 500;
-        color: #ffffff !important;
+        color: #000000 !important;
+        /* color: #ffffff !important; */
         opacity: .5;
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;

@@ -63,6 +63,9 @@ body {
     }
 
   /* Scroll bar css end  */
+  .language {
+    background: rgb(171, 224, 255) !important;
+  }
 
     /* navbar css start*/
 

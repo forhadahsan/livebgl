@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; /* Cover the entire background area */
   background-position: center; /* Center the background image */
-  background-color: #ecf5ff; /* Fallback color if the image is not available */
+  background-color: #d3d5fd; /* Fallback color if the image is not available */
 }
 
   /* Scroll bar css start  */
@@ -64,7 +64,8 @@ body {
 
   /* Scroll bar css end  */
   .language {
-    background: rgb(171, 224, 255) !important;
+    /* background: rgb(225, 244, 255) !important; */
+    background: #eff3ff;
   }
 
     /* navbar css start*/
@@ -98,8 +99,9 @@ body {
     
     .custom-navbar {
       /* background: #d5ffef !important; */
-      /* background: #758afdd8 !important; */
-      background: rgb(192, 230, 250) !important;
+      background: #eff3ff !important;
+      /* background: #fff4f4; */
+      /* background: rgb(217, 238, 250) !important; */
       padding-top: 20px;
       padding-bottom: 20px; }
       .custom-navbar .navbar-brand {

@@ -466,23 +466,33 @@
             <h3 style="font-size: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;  margin-bottom: 7px; text-shadow: 2px 2px 4px #89f085;" > Gallery Pages</h3>
             <hr>
             <div class="col-md-4 my-2 bg-image hover-overlay">
-              <img style="cursor:pointer" src="image/Rectangle 3463182.png" alt="" class="w-100 shadow-lg  bg-body rounded">
+              <img style="cursor:pointer" src="image/galllery/one.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded">
             </div>
             <div class="col-md-4 my-2"> 
-              <img src="image/Rectangle 3463182.png" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer">
+              <img src="image/galllery/two.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer">
             </div>
             <div class="col-md-4 my-2">
-               <img src="image/Rectangle 3463182.png" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer"> 
+               <img src="image/galllery/three.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer"> 
             </div>
             <span class="mt-1"></span>
             <div class="col-md-4 my-2">
-              <img src="image/Rectangle 3463182.png" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer">
+              <img src="image/galllery/four.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer">
             </div>
             <div class="col-md-4 my-2"> 
-              <img src="image/Rectangle 3463182.png" alt="" class="w-100 shadow-lg  bg-body rounded-5" style="cursor:pointer">
+              <img src="image/galllery/five.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded-5" style="cursor:pointer">
             </div>
             <div class="col-md-4 my-2">
-               <img src="image/Rectangle 3463182.png" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer"> 
+               <img src="image/galllery/six.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer"> 
+            </div>
+            <span class="mt-1"></span>
+            <div class="col-md-4 my-2">
+              <img src="image/galllery/ten.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer">
+            </div>
+            <div class="col-md-4 my-2"> 
+              <img src="image/galllery/eight.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded-5" style="cursor:pointer">
+            </div>
+            <div class="col-md-4 my-2">
+               <img src="image/galllery/nine.jpeg" alt="" class="w-100 shadow-lg  bg-body rounded" style="cursor:pointer"> 
             </div>
 
 
@@ -539,7 +549,7 @@
          
         <div class="col-md-6 ">
           <div class="contact-form "  style="background-color: rgb(245, 253, 255);">
-            <form>
+            <form onsubmit="SendEmail()">
                 <div class="form-group">
                     <label for="name"> <b> Name </b> </label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
@@ -558,16 +568,20 @@
                     <!-- <input type="tel" class="form-control " id="message"  name="message" placeholder="Enter your phone message"> -->
                     <textarea class="form-control " name="message" id="message" cols="57" rows="3" placeholder="Enter your phone message" ></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                <button type="submit" class="btn btn-primary mt-2" >Submit</button>
             </form>
           </div>
         </div>
         <div class="col-md-6">
           
-          <h3 style="margin-top: 30px;"> <b> We will get back to you soon.  </b> </h3>
-          <p style="width: 60%;" class="my-5">
+          <h3 style="margin-top: 10px;"> <b> We will get back to you soon.  </b> </h3>
+          <p style="width: 65%;" class="my-3">
             <i class="fa-sharp fa-solid fa-location-dot"></i>
-            Rossais Tower, 3rd Floor, Office No. 308, Dabbab Street, Al Marabba, Riyadh, Saudi Arabia
+              <a href="https://maps.app.goo.gl/ozU4snvyFJh6kg5Q7" style="text-decoration: none;">
+                Rossais Tower, 3rd Floor, Office No. 308, Dabbab Street, Al Marabba, Riyadh, Saudi Arabia
+              </a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28995.105097047835!2d46.64980528602061!3d24.71355170000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0489ad31fb7b%3A0x93fee12beb03d9bb!2sAl-Rossais%20Commercial%20Center%2Cdhabab%20street%2C%20Riyadh!5e0!3m2!1sen!2sbd!4v1715141468876!5m2!1sen!2sbd" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645.3608413347624!2d90.40369803199037!3d23.79326011819351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7e897b13fed%3A0x7082413f0437e57b!2sBGL%20Overseas%20Ltd.%20RL-2017!5e0!3m2!1sen!2sbd!4v1715141171069!5m2!1sen!2sbd" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
           </p>
           <h5>
             <i class="fa-regular fa-envelope"></i>
@@ -786,7 +800,27 @@
 
 
      <!-- Script file start  -->
+
+     <script src="https://smtpjs.com/v3/smtp.js"> </script>
+
       <script>
+
+        function SendEmail(){
+          Email.send({
+          Host : "smtp.elasticemail.com",
+          Username : "mdforhadahsan1999@gmail.com",
+          Password : "C496C0412D280087BB6A7FEFC4B3FB1671E48FAD45CAF5687D12128D5A1FD7E9A11540EA3495FFEEC7F784CCE1020FB1",
+          To : 'mdforhadahsan1999@gmail.com',
+          From : 'mdforhadahsan1999@gmail.com',
+          Subject : "New Contact Form Enquiry",
+          Body : "Name: "+ document.getElementById("name").value
+          + "<br> Email: "+ document.getElementById("email").value
+          + "<br> Phone No:"+document.getElementById("phone").value
+          + "<br> Message: " +document.getElementById("message").value
+          }).then(
+            message => alert("Message Sent Succesfully")
+          );
+        }
 
         // ----------- slider js start -------------------------------------
 

@@ -333,8 +333,8 @@ body {
           .progressBarContainer {
           position: absolute;
           bottom: 20px;
-          width:700px;
-          left: 210px;
+          width:1000px;
+          left: 180px;
           }
 
           .progressBarContainer div {

@@ -333,7 +333,7 @@ body {
           .progressBarContainer {
           position: absolute;
           bottom: 20px;
-          width:1200px;
+          width:1000px;
           left: 90px;
           }
 
@@ -342,7 +342,7 @@ body {
           width: 28%;
           padding: 0;
           cursor: pointer;
-          margin-right: 7%;
+          margin-right: 8%;
           float: left;
           /* color: rgb(255, 255, 255); */
           color: rgba(4, 196, 255, 0.897); 
